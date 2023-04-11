@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 rbtree *new_rbtree(void) {
   rbtree *p = (rbtree *)calloc(1, sizeof(rbtree));
   node_t *nilNode = (node_t *)calloc(1, sizeof(node_t));     // calloc() 함수는 malloc과 달리 각 요소의 모든 비트에 초기 값 0을 제공(0으로 초기화)
